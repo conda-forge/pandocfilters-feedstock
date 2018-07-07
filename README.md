@@ -14,14 +14,15 @@ Summary: A python module for writing pandoc filters
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pandocfilters-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pandocfilters-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pandocfilters-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pandocfilters-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pandocfilters-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pandocfilters-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pandocfilters-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pandocfilters-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pandocfilters/badges/version.svg)](https://anaconda.org/conda-forge/pandocfilters)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pandocfilters/badges/downloads.svg)](https://anaconda.org/conda-forge/pandocfilters)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pandocfilters-green.svg)](https://anaconda.org/conda-forge/pandocfilters) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pandocfilters.svg)](https://anaconda.org/conda-forge/pandocfilters) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pandocfilters.svg)](https://anaconda.org/conda-forge/pandocfilters) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pandocfilters.svg)](https://anaconda.org/conda-forge/pandocfilters) |
 
 Installing pandocfilters
 ========================
