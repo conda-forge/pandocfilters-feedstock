@@ -32,7 +32,6 @@ test:
 
 about:
   home: https://github.com/jgm/pandocfilters
-  summary: Utilities for writing pandoc filters in python
   license: BSD-3-Clause
   license_file: LICENSE
   summary: 'A python module for writing pandoc filters'
