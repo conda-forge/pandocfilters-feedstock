@@ -1,5 +1,5 @@
 {% set name = "pandocfilters" %}
-{% set version = "1.5.0" %}
+{% set version = "1.5.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pandocfilters-{{ version }}.tar.gz
-  sha256: 0b679503337d233b4339a817bfc8c50064e2eff681314376a47cb582305a7a38
+  sha256: 002b4a555ee4ebc03f8b66307e287fa492e4a77b4ea14d3f934328297bb4939e
 
 build:
   number: 0
