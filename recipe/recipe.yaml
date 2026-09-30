@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.5.0"
+  version: "1.5.1"
 
 package:
   name: pandocfilters
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/p/pandocfilters/pandocfilters-${{ version }}.tar.gz
-  sha256: 0b679503337d233b4339a817bfc8c50064e2eff681314376a47cb582305a7a38
+  sha256: 002b4a555ee4ebc03f8b66307e287fa492e4a77b4ea14d3f934328297bb4939e
 
 build:
   number: 0
@@ -33,9 +33,9 @@ tests:
         - "*"
 
 about:
+  summary: Utilities for writing pandoc filters in python
   license: BSD-3-Clause
   license_file: LICENSE
-  summary: A python module for writing pandoc filters
   homepage: https://github.com/jgm/pandocfilters
   repository: https://github.com/jgm/pandocfilters
 
