@@ -1,15 +1,14 @@
 schema_version: 1
 
 context:
-  name: pandocfilters
   version: "1.5.0"
 
 package:
-  name: ${{ name|lower }}
+  name: pandocfilters
   version: ${{ version }}
 
 source:
-  url: https://pypi.io/packages/source/${{ name[0] }}/${{ name }}/pandocfilters-${{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/p/pandocfilters/pandocfilters-${{ version }}.tar.gz
   sha256: 0b679503337d233b4339a817bfc8c50064e2eff681314376a47cb582305a7a38
 
 build:
