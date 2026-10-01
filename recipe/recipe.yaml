@@ -1,0 +1,47 @@
+schema_version: 1
+
+context:
+  version: "1.5.1"
+
+package:
+  name: pandocfilters
+  version: ${{ version }}
+
+source:
+  url: https://files.pythonhosted.org/packages/source/p/pandocfilters/pandocfilters-${{ version }}.tar.gz
+  sha256: 002b4a555ee4ebc03f8b66307e287fa492e4a77b4ea14d3f934328297bb4939e
+
+build:
+  number: 0
+  noarch: python
+  script: ${{ PYTHON }} -m pip install . -vv
+
+requirements:
+  host:
+    - pip
+    - python ${{ python_min }}.*
+    - setuptools
+  run:
+    - python >=${{ python_min }}
+
+tests:
+  - python:
+      imports:
+        - pandocfilters
+      pip_check: true
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
+
+about:
+  summary: Utilities for writing pandoc filters in python
+  license: BSD-3-Clause
+  license_file: LICENSE
+  homepage: https://github.com/jgm/pandocfilters
+  repository: https://github.com/jgm/pandocfilters
+
+extra:
+  recipe-maintainers:
+    - ickc
+    - minrk
+    - mgorny
